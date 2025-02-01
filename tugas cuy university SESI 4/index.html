@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruangan keluarga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="ruangan">
+        Ruangan keluarga
+    </h1>
+    <div class="content">
+        <div class="lampu-container">
+            <img src="content/image/off.gif" id="lampu1" />
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="toggle-switch-1" onchange="saklar()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="lampu-container">
+            <img src="content/image/off.gif" id="lampu2" />
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="toggle-switch-2" onchange="saklar()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="lampu-container">
+            <img src="content/image/off.gif" id="lampu3" />
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="toggle-switch-3" onchange="saklar()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="sidebar-left">
+            <ul>
+                <li><a href="ruangan-tidur.html">Ruangan tidur</a></li>
+            </ul>
+        </nav>
+
+        <nav class="sidebar-right">
+            <ul>
+                <li><a href="ruangan-makan.html">Ruangan Makan</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <script src="main.js" type="application/javascript"></script>
+</body>
+
+</html>
